@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420">
+  <rect width="1200" height="420" fill="#0f172a" />
+  <text x="600" y="52" text-anchor="middle" font-size="30" font-weight="700" fill="#e5e7eb">git status와 git log 읽기 흐름</text>
+  <text x="600" y="84" text-anchor="middle" font-size="16" fill="#94a3b8">현재 상태는 status, 과거 기록은 log에서 읽는다</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#60a5fa" />
+    </marker>
+  </defs>
+
+  <rect x="120" y="146" width="250" height="120" rx="18" fill="#1e293b" stroke="#38bdf8" stroke-width="2" />
+  <text x="245" y="186" text-anchor="middle" font-size="24" font-weight="700" fill="#f8fafc">git status</text>
+  <text x="245" y="218" text-anchor="middle" font-size="16" fill="#cbd5e1">지금 작업 중인 상태 확인</text>
+  <text x="245" y="244" text-anchor="middle" font-size="16" fill="#cbd5e1">staged / unstaged / untracked</text>
+
+  <rect x="450" y="146" width="300" height="120" rx="18" fill="#1e293b" stroke="#60a5fa" stroke-width="2" />
+  <text x="600" y="186" text-anchor="middle" font-size="24" font-weight="700" fill="#f8fafc">읽는 기준</text>
+  <text x="600" y="218" text-anchor="middle" font-size="16" fill="#cbd5e1">현재 상태를 볼지</text>
+  <text x="600" y="244" text-anchor="middle" font-size="16" fill="#cbd5e1">과거 기록을 볼지 먼저 구분</text>
+
+  <rect x="830" y="146" width="250" height="120" rx="18" fill="#1e293b" stroke="#34d399" stroke-width="2" />
+  <text x="955" y="186" text-anchor="middle" font-size="24" font-weight="700" fill="#f8fafc">git log</text>
+  <text x="955" y="218" text-anchor="middle" font-size="16" fill="#cbd5e1">이미 남긴 기록 확인</text>
+  <text x="955" y="244" text-anchor="middle" font-size="16" fill="#cbd5e1">메시지 / 순서 / 해시</text>
+
+  <line x1="370" y1="206" x2="450" y2="206" stroke="#60a5fa" stroke-width="4" marker-end="url(#arrow)" />
+  <line x1="750" y1="206" x2="830" y2="206" stroke="#60a5fa" stroke-width="4" marker-end="url(#arrow)" />
+
+  <rect x="250" y="308" width="700" height="60" rx="14" fill="#111827" stroke="#334155" stroke-width="1.5" />
+  <text x="600" y="344" text-anchor="middle" font-size="18" fill="#e5e7eb">핵심 기억: 지금 상태는 git status, 과거 기록은 git log</text>
+</svg>
