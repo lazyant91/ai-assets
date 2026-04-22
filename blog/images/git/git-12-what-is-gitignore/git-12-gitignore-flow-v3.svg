@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="580" viewBox="0 0 1200 580">
+  <rect width="1200" height="580" fill="#0f172a" />
+  <text x="600" y="58" text-anchor="middle" font-size="30" font-weight="700" fill="#e5e7eb">.gitignore 기본 흐름 요약</text>
+  <text x="600" y="90" text-anchor="middle" font-size="16" fill="#94a3b8">올릴 파일과 제외할 파일을 미리 나누면 저장소가 더 깔끔하고 안전해진다</text>
+
+  <rect x="70" y="150" width="320" height="250" rx="22" fill="#111827" stroke="#34d399" stroke-width="2" />
+  <text x="230" y="194" text-anchor="middle" font-size="24" font-weight="700" fill="#f8fafc">프로젝트 폴더</text>
+  <text x="230" y="232" text-anchor="middle" font-size="16" fill="#cbd5e1">소스 코드, 문서, 설정 파일</text>
+  <text x="230" y="272" text-anchor="middle" font-size="16" fill="#86efac">함께 관리할 파일</text>
+  <text x="230" y="304" text-anchor="middle" font-size="16" fill="#86efac">기록으로 남길 파일</text>
+  <text x="230" y="350" text-anchor="middle" font-size="15" fill="#64748b">예: .cs, .js, .md, config</text>
+
+  <rect x="440" y="150" width="320" height="250" rx="22" fill="#111827" stroke="#38bdf8" stroke-width="2" />
+  <text x="600" y="194" text-anchor="middle" font-size="24" font-weight="700" fill="#f8fafc">.gitignore</text>
+  <text x="600" y="232" text-anchor="middle" font-size="16" fill="#cbd5e1">제외 규칙을 적는 파일</text>
+  <text x="600" y="272" text-anchor="middle" font-size="16" fill="#93c5fd">로그 파일</text>
+  <text x="600" y="304" text-anchor="middle" font-size="16" fill="#93c5fd">빌드 결과물</text>
+  <text x="600" y="336" text-anchor="middle" font-size="16" fill="#93c5fd">환경별 비밀 정보</text>
+
+  <rect x="810" y="150" width="320" height="250" rx="22" fill="#111827" stroke="#f59e0b" stroke-width="2" />
+  <text x="970" y="194" text-anchor="middle" font-size="24" font-weight="700" fill="#f8fafc">Git 기록</text>
+  <text x="970" y="232" text-anchor="middle" font-size="16" fill="#cbd5e1">필요한 파일만 추적</text>
+  <text x="970" y="272" text-anchor="middle" font-size="16" fill="#fcd34d">기록이 덜 지저분해짐</text>
+  <text x="970" y="304" text-anchor="middle" font-size="16" fill="#fcd34d">민감 파일 실수 업로드 감소</text>
+  <text x="970" y="350" text-anchor="middle" font-size="15" fill="#64748b">협업과 유지 관리가 쉬워짐</text>
+
+  <line x1="390" y1="275" x2="414" y2="275" stroke="#60a5fa" stroke-width="6" stroke-linecap="round" />
+  <circle cx="390" cy="275" r="7" fill="#60a5fa" />
+  <polygon points="432,275 414,266 414,284" fill="#60a5fa" />
+
+  <line x1="760" y1="275" x2="784" y2="275" stroke="#60a5fa" stroke-width="6" stroke-linecap="round" />
+  <circle cx="760" cy="275" r="7" fill="#60a5fa" />
+  <polygon points="802,275 784,266 784,284" fill="#60a5fa" />
+
+  <rect x="120" y="455" width="960" height="78" rx="16" fill="#111827" stroke="#334155" stroke-width="1.5" />
+  <text x="600" y="488" text-anchor="middle" font-size="18" fill="#e5e7eb">핵심 기억: .gitignore는 Git이 추적하지 않을 파일을 미리 정해 둬서</text>
+  <text x="600" y="515" text-anchor="middle" font-size="18" fill="#e5e7eb">저장소를 더 깔끔하고 안전하게 유지하게 해준다</text>
+</svg>
