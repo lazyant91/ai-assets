@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420">
+  <rect width="1200" height="420" fill="#0f172a" />
+  <text x="600" y="52" text-anchor="middle" font-size="30" font-weight="700" fill="#e5e7eb">Git branch 생성과 이동 흐름</text>
+  <text x="600" y="84" text-anchor="middle" font-size="16" fill="#94a3b8">생성과 이동은 다른 단계이며, 한 번에 처리하는 방법도 있다</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#60a5fa" />
+    </marker>
+  </defs>
+
+  <rect x="110" y="145" width="220" height="120" rx="18" fill="#1e293b" stroke="#38bdf8" stroke-width="2" />
+  <text x="220" y="185" text-anchor="middle" font-size="22" font-weight="700" fill="#f8fafc">1. 현재 위치 확인</text>
+  <text x="220" y="218" text-anchor="middle" font-size="16" fill="#cbd5e1">git branch</text>
+  <text x="220" y="244" text-anchor="middle" font-size="16" fill="#cbd5e1">별표(*) 브랜치 보기</text>
+
+  <rect x="380" y="145" width="220" height="120" rx="18" fill="#1e293b" stroke="#60a5fa" stroke-width="2" />
+  <text x="490" y="185" text-anchor="middle" font-size="22" font-weight="700" fill="#f8fafc">2. 브랜치 생성</text>
+  <text x="490" y="218" text-anchor="middle" font-size="16" fill="#cbd5e1">git branch 이름</text>
+  <text x="490" y="244" text-anchor="middle" font-size="16" fill="#cbd5e1">생성만 하고 이동 안 함</text>
+
+  <rect x="650" y="145" width="220" height="120" rx="18" fill="#1e293b" stroke="#60a5fa" stroke-width="2" />
+  <text x="760" y="185" text-anchor="middle" font-size="22" font-weight="700" fill="#f8fafc">3. 브랜치 이동</text>
+  <text x="760" y="218" text-anchor="middle" font-size="16" fill="#cbd5e1">git switch 이름</text>
+  <text x="760" y="244" text-anchor="middle" font-size="16" fill="#cbd5e1">또는 checkout 이름</text>
+
+  <rect x="920" y="145" width="170" height="120" rx="18" fill="#1e293b" stroke="#34d399" stroke-width="2" />
+  <text x="1005" y="185" text-anchor="middle" font-size="22" font-weight="700" fill="#f8fafc">한 번에</text>
+  <text x="1005" y="218" text-anchor="middle" font-size="16" fill="#cbd5e1">switch -c</text>
+  <text x="1005" y="244" text-anchor="middle" font-size="16" fill="#cbd5e1">checkout -b</text>
+
+  <line x1="330" y1="205" x2="380" y2="205" stroke="#60a5fa" stroke-width="4" marker-end="url(#arrow)" />
+  <line x1="600" y1="205" x2="650" y2="205" stroke="#60a5fa" stroke-width="4" marker-end="url(#arrow)" />
+  <line x1="870" y1="205" x2="920" y2="205" stroke="#60a5fa" stroke-width="4" marker-end="url(#arrow)" />
+
+  <rect x="190" y="306" width="820" height="60" rx="14" fill="#111827" stroke="#334155" stroke-width="1.5" />
+  <text x="600" y="343" text-anchor="middle" font-size="18" fill="#e5e7eb">핵심 기억: branch는 생성, switch는 이동, switch -c는 생성+이동</text>
+</svg>
